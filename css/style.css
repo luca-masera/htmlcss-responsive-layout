@@ -68,6 +68,10 @@
 .text-center{
     text-align: center;
 }
+
+h3{
+    font-size: 20px;
+}
 /*spaziature*/
 
 .padding-tb-10{
@@ -77,7 +81,7 @@
 
 .padding-rl-10{
     padding-right: 10px;
-    padding-right: 10px;
+    padding-left: 10px;
 }
 .padding-tb-20{
     padding-top: 20px;
@@ -86,14 +90,42 @@
 
 .padding-rl-20{
     padding-right: 20px;
-    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .padding{
     padding: 10px;
 }
 
+.padding-top20{
+    padding-top: 20px;
+}
 
+
+.padding-bottom20{
+    padding-bottom: 20px;
+}
+
+/*bottoni*/
+
+.button-blue{
+    padding: 6px 50px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color-light-color);
+    background-color: var(--color-secondary-color);
+    border-radius: 10px;
+}
+/*immagini*/
+
+img{
+    display: block;
+    width: 100%;
+}
+
+span{
+    font-size: 70px;
+}
 header{
     background-color: var(--color-secondary-color);
     color: var(--color-light-color);
