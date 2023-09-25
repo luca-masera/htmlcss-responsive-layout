@@ -12,3 +12,100 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.debug{
+    border: 1px solid black;
+}
+/*UTILITY*/
+
+/*bordi*/
+.small-border-radius{
+    border-radius: 10px;
+}
+
+.big-border-radius{
+    border-radius: 20px;
+}
+
+.circle-border-radius{
+    border-radius: 50%;
+}
+
+/*sfondi carte*/
+.bg-card-blue{
+    background-color: var(--color-bg-card);
+}
+
+.bg-card-violet{
+    background-color: var(--color-primary-color);
+}
+
+.bg-card-white{
+    background-color: var(--color-light-color);
+}
+/*colore del testo*/
+
+.text-color-white{
+    color: var(--color-light-color);
+}
+
+.text-color-black{
+    color: var(--color-text);
+}
+
+.text-color-violette{
+    color: var(--color-primary-color);
+}
+
+.text-color-blue{
+    color: var(--color-secondary-color);
+}
+
+.line-height{
+    line-height: 1.5;
+}
+
+.text-center{
+    text-align: center;
+}
+/*spaziature*/
+
+.padding-tb-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.padding-rl-10{
+    padding-right: 10px;
+    padding-right: 10px;
+}
+.padding-tb-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.padding-rl-20{
+    padding-right: 20px;
+    padding-right: 20px;
+}
+
+.padding{
+    padding: 10px;
+}
+
+
+header{
+    background-color: var(--color-secondary-color);
+    color: var(--color-light-color);
+}
+body{
+    font-family:'PT Sans', sans-serif;
+    background-color: var(--color-light-color);
+    color: var(--color-text);
+}
+footer{
+    background-color: var(--color-dark-color);
+}
+.container{
+    padding: 5px;
+}
