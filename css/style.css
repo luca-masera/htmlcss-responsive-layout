@@ -109,6 +109,11 @@ h3{
 .margin-top{
     margin-top: 20px;
 }
+
+.margin-bottom20{
+    margin-bottom: 20px;
+}
+
 /*bottoni*/
 
 .button-blue{
@@ -119,6 +124,24 @@ h3{
     background-color: var(--color-secondary-color);
     border-radius: 10px;
 }
+
+.button-violette{
+    padding: 6px 38px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color-light-color);
+    background-color: var(--color-primary-color);
+    border-radius: 16px;
+}
+.button-violette-linkedin{
+    padding: 6px 24px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color-light-color);
+    background-color: var(--color-primary-color);
+    border-radius: 16px;
+}
+
 /*immagini*/
 
 img{
@@ -126,10 +149,21 @@ img{
     width: 100%;
 }
 
+.img-about{
+    width: 58%;
+}
+
 .img-intro{
     font-size: 70px;
 }
 
+.font-size{
+    font-size: 30px;
+}
+
+.font-size1{
+    font-size: 24px;
+}
 header{
     background-color: var(--color-secondary-color);
     color: var(--color-light-color);
