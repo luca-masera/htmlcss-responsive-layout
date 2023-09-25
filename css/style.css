@@ -60,6 +60,9 @@
 .text-color-blue{
     color: var(--color-secondary-color);
 }
+.text-color-yellow{
+    color: var(--color-contrast-color);
+}
 
 .line-height{
     line-height: 1.5;
@@ -68,6 +71,8 @@
 .text-center{
     text-align: center;
 }
+
+
 
 h3{
     font-size: 20px;
@@ -114,6 +119,20 @@ h3{
     margin-bottom: 20px;
 }
 
+.opacity{
+    opacity: 0.5;
+}
+.font-size{
+    font-size: 30px;
+}
+
+.font-size1{
+    font-size: 24px;
+}
+
+.font-size2{
+    font-size: 45px;
+}
 /*bottoni*/
 
 .button-blue{
@@ -141,6 +160,18 @@ h3{
     background-color: var(--color-primary-color);
     border-radius: 16px;
 }
+.button-violette-white{
+    padding: 17px 50px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color-primary-color);
+    background-color: var(--color-light-color);
+    border-radius: 27px;
+    position: relative;
+    left: 62px;
+}
+
+
 
 /*immagini*/
 
@@ -157,13 +188,7 @@ img{
     font-size: 70px;
 }
 
-.font-size{
-    font-size: 30px;
-}
 
-.font-size1{
-    font-size: 24px;
-}
 header{
     background-color: var(--color-secondary-color);
     color: var(--color-light-color);
