@@ -111,6 +111,9 @@ h3{
     padding-bottom: 20px;
 }
 
+.padding-bottom40{
+    padding-bottom: 40px;
+}
 .margin-top{
     margin-top: 20px;
 }
@@ -200,6 +203,7 @@ body{
 }
 footer{
     background-color: var(--color-dark-color);
+    color: var(--color-light-color);
 }
 .container{
     padding: 5px;
