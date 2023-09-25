@@ -191,10 +191,14 @@ img{
     font-size: 70px;
 }
 
+.img-logo{
+    font-size: 30px;
+}
 
 header{
     background-color: var(--color-secondary-color);
     color: var(--color-light-color);
+    display: fixed;
 }
 body{
     font-family:'PT Sans', sans-serif;
@@ -207,4 +211,9 @@ footer{
 }
 .container{
     padding: 5px;
+}
+.d-flex{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
 }
