@@ -13,9 +13,9 @@
     box-sizing: border-box;
 }
 
-.debug{
+/*.debug{
     border: 1px solid black;
-}
+}*/
 /*UTILITY*/
 
 /*bordi*/
@@ -209,11 +209,120 @@ footer{
     background-color: var(--color-dark-color);
     color: var(--color-light-color);
 }
-.container{
+.container1{
     padding: 5px;
+    width: 100%;
+}
+
+.container3{
+    padding: 5px;
+    width: 100%;
 }
 .d-flex{
     display: flex;
     justify-content:space-between;
     align-items: center;
+}
+
+.d-flex1{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.f-column{
+    flex-direction: column;
+}
+/*MEDIA QUERY*/
+@media screen and (min-width: 768px){
+    
+    
+    .container1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .intro-box-1{
+        width: 67%;
+    }
+    
+    .intro-box-2, .intro-box-3, .intro-box-4, .intro-box-5{
+        width: 33%;
+    }
+    
+    .intro-box-2 div{
+        height: 100%;
+    }
+    
+    .testimonial-box{
+        flex-direction: row;
+    }
+    
+    .testimonia-image-box{
+        width: 30%;
+    }
+
+    
+    .testimonia-image-box img{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .testimonial-info-box{
+        width: 70%;
+        padding: 10px;
+    }
+    
+    .beneficts-box-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .beneficts-box-content{
+        width: 50%;
+    }
+    
+    .about-us-wrapper{
+        display: flex;
+    }
+    
+    .about-us-left-box{
+        width: 60%;
+    }
+    
+    .about-us-right-box{
+        width: 40%;
+    }
+
+}
+
+
+@media screen and (min-width:1200px){
+
+    .nav-container,#intro, .planning-wrapper, #testimonial, .beneficts-container, #about-us{
+        width: 1000px;
+        margin: auto;
+    }
+
+    .intro-box-wrapper, .intro-box-image{
+        display: flex;
+    }
+
+    .intro-box-content{
+        margin-bottom: 100px;
+    }
+
+    .intro-box-image{
+        align-items: flex-end;
+    }
+
+    .planning-wrapper{
+        display: flex;
+    }
+    .planning-right-box{
+        display: flex;
+        align-items: flex-end;
+    }
+    .beneficts-box-content{
+        width: 33%;
+    }
 }
